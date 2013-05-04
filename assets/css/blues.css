@@ -51,16 +51,10 @@ table {
 
 /* grid setup */
 
-<<<<<<< HEAD
-html {
-	background: #E7EBF2;
-	font-family: 'Droid Sans', sans-serif;
-=======
 
 body {
   font-family: 'Fjalla One', sans-serif;
   background: linear-gradient(black 20%, #b3b3b3 90%);
->>>>>>> master
 }
 
 
@@ -117,7 +111,6 @@ h1 {
     text-transform: uppercase;
     padding-left: 10px;
     padding-top: 15px;
-    	font-family: 'Fjalla One', sans-serif;
 }
 
 #tagline {
@@ -125,7 +118,6 @@ h1 {
 	font-size: 15px;
 	float: left;
 	padding-left: 5px;
-		font-family: 'Fjalla One', sans-serif;
 }
 
 img .logo {
