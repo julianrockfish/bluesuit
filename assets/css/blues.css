@@ -105,29 +105,31 @@ header {
 	background: black;
 	height: 110px;
 	width: 100%;
-
-
 }
 
-.logo {
-	float: right;
-	margin: 0;
-	padding: 0;
+.hstyle {
+	width: 600px;
+	float: left;
+} 
+
+.suit {
+	width: 120px;
+	float: left;
 }
-
-
-
 
 h1 {
 	font-family: 'Fjalla One', sans-serif;
-	float: left;
 	color: white;
 	font-size: 45px;
     text-transform: uppercase;
-    padding-left: 10px;
-    padding-top: 15px;
+    float: left;
     line-height: 40px;
+    width: 380px;
+    padding-top: 16px;
 }
+
+.clear{clear:both;}
+
 
 h2 {
 	font-family: 'Fjalla One', sans-serif;
