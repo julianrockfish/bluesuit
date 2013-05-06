@@ -113,7 +113,7 @@ header {
 } 
 
 #hstyle img {
-	width: 110px;
+	width: 100px;
 	float: left;
 }
 
@@ -127,6 +127,13 @@ h1 {
     padding-top: 16px;
 }
 
+#tagline {
+	color: white;
+	font-size: 15px;
+	float: left;
+	padding-left: 5px;
+}
+
 .clear{clear:both;}
 
 
@@ -138,15 +145,6 @@ h2 {
 
 }
 
-#tagline {
-	color: white;
-	font-size: 15px;
-	float: left;
-	padding-left: 5px;
-}
-
-img .logo {
-}
 
 footer {
 	background: black;
