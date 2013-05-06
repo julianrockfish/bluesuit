@@ -107,13 +107,13 @@ header {
 	width: 100%;
 }
 
-.hstyle {
-	width: 600px;
+#hstyle {
+	height: 105px;
 	float: left;
 } 
 
-.suit {
-	width: 120px;
+#hstyle img {
+	width: 110px;
 	float: left;
 }
 
@@ -122,9 +122,8 @@ h1 {
 	color: white;
 	font-size: 45px;
     text-transform: uppercase;
-    float: left;
+    position: relative;
     line-height: 40px;
-    width: 380px;
     padding-top: 16px;
 }
 
