@@ -53,8 +53,11 @@ table {
 
 
 body {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Cutive Mono', serif;
   background: linear-gradient(black 20%, #b3b3b3 90%);
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
 }
 
 
@@ -65,13 +68,15 @@ body {
 }
 
 div .eighths {
-	width: 80px;
+	width: 78px;
 	margin: 10px;
 	padding: 10px;
 	background: #1A1A1C;
 	float: left;
 	color: #E7EBF2;
 	text-align: center;
+	border-radius: 3px;
+	border: 1px solid gray;
 }
 
 div .col {
@@ -92,7 +97,6 @@ div .half {
 	background: #1A1A1C;
 	float: left;
 	color: #E7EBF2;
-	text-align: center;s
 }
 
 /* Julian styles */
@@ -101,16 +105,36 @@ header {
 	background: black;
 	height: 110px;
 	width: 100%;
+
+
+}
+
+.logo {
+	float: right;
+	margin: 0;
+	padding: 0;
 }
 
 
+
+
 h1 {
+	font-family: 'Fjalla One', sans-serif;
 	float: left;
 	color: white;
 	font-size: 45px;
     text-transform: uppercase;
     padding-left: 10px;
     padding-top: 15px;
+    line-height: 40px;
+}
+
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 24px;
+	line-height: 32px;
+	padding-bottom: 9px;
+
 }
 
 #tagline {
@@ -127,13 +151,32 @@ footer {
 	background: black;
 	height: 100px;
 	width: 100%;
+	color: white;
+	padding-top: 30px;
 }
 
 img {
 	margin: 10px;
 }
 
+#snaker {
+	float: right;
+	padding-top: 27px;
+}
 
+#expendable {
+	float: right;
+	padding-top: 27px;
+}
+
+a {
+	text-decoration: none;
+	color: white;	
+}
+
+a:hover {
+	text-decoration: underline;
+}
 
 /*
   Clearfix
