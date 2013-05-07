@@ -194,3 +194,24 @@ a:hover {
   clear: both;
   *zoom: 1;
 }
+
+/* Contact Form */
+
+#contact-area {
+	float: left;
+	margin-left: 30px;
+	width: 480px;
+	background: black;
+	color: white;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+textarea {
+	width: 500px;
+    height: 250px;
+}
+
