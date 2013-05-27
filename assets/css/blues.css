@@ -202,14 +202,17 @@ a:hover {
 
 #contact-area {
 	float: left;
-	margin-left: 30px;
+	margin-left: 16px;
 	width: 480px;
 	background: black;
 	color: white;
+	padding: 10px;
+	border: 2px solid rgba(255, 255, 255, .8);
+	border-radius: 4px;
 }
 
 #contact-area {
-	width: 600px;
+	width: 900px;
 	margin-top: 25px;
 }
 
@@ -218,3 +221,45 @@ textarea {
     height: 250px;
 }
 
+form {
+	margin: 0 0 20px 0;
+	padding: 20px;
+}
+
+input {
+	border-radius: 4px;
+}
+
+input#name {
+	margin-bottom: 10px;
+}
+
+input#message {
+	display: block;
+}
+
+textarea {
+	border-radius: 4px;
+	width: 770px;
+	height: 80px;
+}
+
+.coverart {
+	float: left;
+}
+
+/*.coverart:hover {
+	width: 300px;
+	height: 300px;
+}*/
+
+.release {
+	margin-bottom: 30px;
+	clear: both;
+}
+
+h4 {
+	font-weight: bold;
+	text-decoration: underline;
+
+}
