@@ -158,9 +158,10 @@ footer {
 	padding-top: 30px;
 }
 
-img {
+*img {
 	margin: 10px;
 }
+
 
 #snaker {
 	float: right;
@@ -246,6 +247,7 @@ textarea {
 
 .coverart {
 	float: left;
+	margin: 0 10px 30px 10px;
 }
 
 /*.coverart:hover {
@@ -261,5 +263,6 @@ textarea {
 h4 {
 	font-weight: bold;
 	text-decoration: underline;
+	display: inline;
 
 }
