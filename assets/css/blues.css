@@ -51,6 +51,7 @@ table {
 
 /* grid setup */
 
+html { font-size:100%; } 
 
 body {
   font-family: 'Cutive Mono', serif;
@@ -62,28 +63,144 @@ body {
 }
 
 
-.container {
-	width: 960px;
-	background: #b3b3b3;
-	margin: 0 auto;
+
+/* Header Perfection */ 
+
+header {
+	background: black;
+	height: 140px;
+	width: 100%;
+	position: fixed;
+	top: 0;
 }
 
-div .eighths {
-	width: 76px;
-	margin: 10px;
-	padding: 10px;
+
+#htop {
+	height: 90px;
+	float: left;
+	background-color: black;
+	width: 100%;
+} 
+
+.hlock {
+	min-width: 700px;
+}
+
+#htop img {
+	width: 101px;
+	float: left;
+}
+
+#brand {
+	float: left;
+	width: 599px;
+}
+
+.container {
+	max-width: 960px;
+	background: #b3b3b3;
+	margin: 0 auto;
+
+}
+
+
+.eighths {
+	width: 8.125%;
+	margin: 0% 1.458333333333% 0% 1.458333333333%;
+	padding-top: 0.520833333333%; 
+	padding-bottom: 0.416666666667%;
+	padding-left: 0.520833333333%;
+	padding-right: 0.520833333333%;
 	background: #1A1A1C;
 	float: left;
 	color: #E7EBF2;
 	text-align: center;
-	border-radius: 3px;
+	border-radius: 0.3125%;
 	border: 1px solid gray;
 }
 
+/* FLUID */ 
+
+@media only screen and (max-width: 900px) {
+
+#navbar ul li {
+	font-size: 9px;
+}
+
+}
+
+@media only screen and (max-width: 600px){
+
+	#navbar ul li {
+font-size: 6px;
+} 
+
+
+.eighths {
+	width: 7.825%;
+	margin: 0% 1.458333333333% 0% 1.458333333333%;
+	padding-top: 0.520833333333%; 
+	padding-bottom: 0.416666666667%;
+	padding-left: 0.520833333333%;
+	padding-right: 0.520833333333%;
+	background: #1A1A1C;
+	float: left;
+	color: #E7EBF2;
+	text-align: center;
+	border-radius: 0.3125%;
+	border: 1px solid gray;
+}
+	
+}
+
+
+/* End of FLUID */
+
+#tagline {
+	color: white;
+	font-size: 15px;
+	float: left;
+	padding-left: 5px;
+	line-height: 30px;
+}
+
+.mainnav li {
+	font-size: 10px;
+	text-transform: uppercase;
+	font-family: 'fjalla one';
+}
+
+#navbar {
+	width: 100%;
+	background-color: #b3b3b3;
+}
+
+.clear{clear:both;}
+
+
+/*
+  Clearfix
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+
+
 div .col {
-	width: 200px;
-	margin: 10px;
-	padding: 10px;
+	width: 20.833333333333%;
+	margin: 1.041666666667%;
+	padding: 1.041666666667%;
 	background: #1A1A1C;
 	float: left;
 	color: #E7EBF2;
@@ -92,52 +209,38 @@ div .col {
 }
 
 div .half {
-	width: 440px;
-	margin: 10px;
-	padding: 10px;
+	width: 45.833333333333%;
+	margin: 1.041666666667%;
+	padding: 1.041666666667%;
 	background: #1A1A1C;
 	float: left;
 	color: #E7EBF2;
 }
 
+img, video, canvas {
+  max-width: 100%;
+}
+
 /* Julian styles */
 
-header {
-	background: black;
-	height: 110px;
-	width: 100%;
-	position: fixed;
-	top: 0;
+
+
+#hero {
+margin-left: 10px;
+margin-top: 10px;
 }
 
-#hstyle {
-	height: 105px;
-	float: left;
-} 
-
-#hstyle img {
-	width: 101px;
-	float: left;
-}
 
 h1 {
 	font-family: 'Fjalla One', sans-serif;
 	color: white;
 	font-size: 45px;
-    text-transform: uppercase;
-    position: relative;
-    line-height: 40px;
-    padding-top: 16px;
+  text-transform: uppercase;
+    /*position: relative;*/
+  line-height: 40px;
+  padding-top: 16px;
 }
 
-#tagline {
-	color: white;
-	font-size: 15px;
-	float: left;
-	padding-left: 5px;
-}
-
-.clear{clear:both;}
 
 
 h2 {
@@ -182,22 +285,6 @@ a:hover {
 	text-decoration: underline;
 }
 
-/*
-  Clearfix
-*/
-
-.group:before,
-.group:after {
-  content: "";
-  display: table;
-}
-.group:after {
-  clear: both;
-}
-.group {
-  clear: both;
-  *zoom: 1;
-}
 
 /* Contact Form */
 
