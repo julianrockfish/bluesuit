@@ -300,12 +300,12 @@ a:hover {
 }
 
 #contact-area {
-	width: 900px;
+	width: 93.75%;
 	margin-top: 25px;
 }
 
 textarea {
-	width: 500px;
+	width: 400px;
     height: 250px;
 }
 
