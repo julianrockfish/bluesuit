@@ -248,6 +248,7 @@ h2 {
 	line-height: 32px;
 	padding-bottom: 9px;
 	text-align: left;
+	padding-top: 8px;
 
 }
 
@@ -354,3 +355,17 @@ h4 {
 	display: inline;
 
 }
+
+
+ul#performers li.performer {
+	float: left;
+	width: 21.875%;
+	background-color: black;
+	padding: .520833333333%;
+	margin: 1.041666666667%;
+	color: white;
+}
+
+
+
+
