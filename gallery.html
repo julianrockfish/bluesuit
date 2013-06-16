@@ -14,6 +14,12 @@
 
 <link href='http://fonts.googleapis.com/css?family=Cutive+Mono|Fjalla+One' rel='stylesheet' type='text/css'>
 
+<script src="assets/js/jquery.js"></script>
+
+<script src="assets/js/jquery.photoset-grid.js"></script>
+
+<script src="assets/js/jquery.colorbox.js"></script>
+
 </head> 
 
 <body> 
@@ -41,7 +47,7 @@
 						<li class="eighths"> <p> <a href="#"> Shows  </a> </p> </li> 
 						<li class="eighths"> <p> <a href="#"> Downloads </a> </p> </li> 
 						<li class="eighths"> <p> <a href="http://bluesuit.bigcartel.com/"> Store </a> </p> </li> 
-						<li class="eighths"> <p> <a href="#"> Gallery </a> </p> </li> 
+						<li class="eighths"> <p> <a href="gallery.html"> Gallery </a> </p> </li> 
 						<li class="eighths"> <p> <a href="#"> Blog </a> </p> </li> 
 						<li class="eighths"> <p> <a href="contact.html"> Contact </a> </p> </li> 
 
@@ -53,7 +59,42 @@
 
 	</body> 
 
+<div class="container">
 
+<div class="photoset-grid-lightbox" data-layout="232">
+
+  <img src="assets/images/lilwalt.jpg" data-highres="assets/images/lilwalt.jpg">
+  <img src="assets/images/jack2.jpg" data-highres="assets/images/jack2.jpg">
+  <img src="assets/images/shah.jpg" data-highres="assets/images/shah.jpg">
+  <img src="assets/images/howard1.jpg" data-highres="assets/images/howard1.jpg">
+   <img src="assets/images/honeyb1.jpg" data-highres="assets/images/honeyb1.jpg">
+   <img src="assets/images/kirkland.jpg" data-highres="assets/images/kirkland.jpg">
+  <img src="assets/images/jack2.jpg" data-highres="assets/images/jack2.jpg">
+</div>
+
+
+
+</div> 
+
+<script> 
+
+$('.photoset-grid-lightbox').photosetGrid({
+  highresLinks: true,
+  rel: 'withhearts-gallery',
+  gutter: '2px',
+
+  onComplete: function(){
+    $('.photoset-grid-lightbox').attr('style', '');
+    $('.photoset-grid-lightbox a').colorbox({
+      photo: true,
+      scalePhotos: true,
+      maxHeight:'90%',
+      maxWidth:'90%'
+    });
+  }
+});
+
+</script> 
 
 
 </html>
