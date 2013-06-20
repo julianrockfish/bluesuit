@@ -47,6 +47,7 @@ table {
 	border-spacing: 0;
 }
 
+
 /*end css reset */
 
 /* grid setup */
@@ -54,10 +55,10 @@ table {
 html { font-size:100%; } 
 
 body {
-  font-family: 'Cutive Mono', serif;
-  background: linear-gradient(black 20%, #b3b3b3 90%);
-  font-size: 14px;
-  line-height: 18px;
+  font-family: 'Droid Sans', sans-serif;
+  background: #b3b3b3;
+  font-size: 13px;
+  line-height: 20px;
   font-weight: 600;
   padding-top: 125px;
 }
@@ -90,6 +91,8 @@ header {
 	float: left;
 }
 
+
+
 #brand {
 	float: left;
 	width: 599px;
@@ -102,6 +105,10 @@ header {
 
 }
 
+li a:hover {
+	color: black;
+	text-decoration: none;
+}
 
 .eighths {
 	width: 8.125%;
@@ -110,12 +117,13 @@ header {
 	padding-bottom: 0.416666666667%;
 	padding-left: 0.520833333333%;
 	padding-right: 0.520833333333%;
-	background: #1A1A1C;
+	/*background: #1A1A1C;*/
 	float: left;
 	color: #E7EBF2;
 	text-align: center;
 	border-radius: 0.3125%;
-	border: 1px solid gray;
+	/*border: 1px solid gray;*/
+		text-transform: uppercase;
 }
 
 /* FLUID */ 
@@ -124,6 +132,7 @@ header {
 
 #navbar ul li {
 	font-size: 9px;
+
 }
 
 }
@@ -132,6 +141,7 @@ header {
 
 	#navbar ul li {
 font-size: 6px;
+
 } 
 
 
@@ -142,12 +152,12 @@ font-size: 6px;
 	padding-bottom: 0.416666666667%;
 	padding-left: 0.520833333333%;
 	padding-right: 0.520833333333%;
-	background: #1A1A1C;
+	/*background: #1A1A1C;*/
 	float: left;
 	color: #E7EBF2;
 	text-align: center;
 	border-radius: 0.3125%;
-	border: 1px solid gray;
+	/*border: 1px solid gray;*/
 }
 	
 }
@@ -200,9 +210,9 @@ div .col {
 	width: 20.833333333333%;
 	margin: 1.041666666667%;
 	padding: 1.041666666667%;
-	background: #1A1A1C;
+	/*background: #1A1A1C;*/
 	float: left;
-	color: #E7EBF2;
+	color: black;
 	text-align: center;
 
 }
@@ -211,9 +221,9 @@ div .half {
 	width: 45.833333333333%;
 	margin: 1.041666666667%;
 	padding: 1.041666666667%;
-	background: #1A1A1C;
+	/*background: #1A1A1C;*/
 	float: left;
-	color: #E7EBF2;
+	color: black;
 }
 
 img, video, canvas {
@@ -226,7 +236,7 @@ img, video, canvas {
 
 #hero {
 margin-left: 10px;
-margin-top: 10px;
+/*margin-top: 10px;*/
 }
 
 
@@ -249,7 +259,7 @@ h2 {
 	padding-bottom: 9px;
 	text-align: left;
 	padding-top: 8px;
-	padding-left: 10px;
+	/*padding-left: 10px;*/
 
 }
 
@@ -293,10 +303,10 @@ a:hover {
 	float: left;
 	margin-left: 16px;
 	width: 480px;
-	background: black;
-	color: white;
+	/*background: black;*/
+	color: black;
 	padding: 10px;
-	border: 2px solid rgba(255, 255, 255, .8);
+	/*border: 2px solid rgba(255, 255, 255, .8);*/
 	border-radius: 4px;
 }
 
@@ -312,7 +322,7 @@ textarea {
 
 form {
 	margin: 0 0 20px 0;
-	padding: 20px;
+	padding-top: 10px;
 }
 
 input {
@@ -361,10 +371,10 @@ h4 {
 ul#performers li.performer {
 	float: left;
 	width: 21.875%;
-	background-color: black;
+	/*background-color: black;*/
 	padding: .520833333333%;
 	margin: 1.041666666667%;
-	color: white;
+	color: black;
 }
 
 /*** GALLERY COLORBOX CSS **/
