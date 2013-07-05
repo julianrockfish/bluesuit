@@ -446,4 +446,10 @@ ul#performers li.performer {
 .cboxSlideshow_off #cboxSlideshow.hover{background-position:-75px -25px;}
 
 
+/**** FORM STUFF ****/
+
+li.hide {
+	visibility: hidden;
+}
+
 
